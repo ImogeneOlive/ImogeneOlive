@@ -5,13 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title> Imogene - Commissions </title>
 <style>
+
+ div.banner {float: left; 
+    }
+    .banner a:hover {color: black;}
+    .banner a { color:  grey; text-decoration: none; font-size:  45px; }
+
+.topnav a { fontsize: 40px; text-decoration: none; padding:  14px 16px; float: right; text-align:  center; color: grey;
+    }
+    div.topnav { float: right}
+    .topnav a:hover { color:black; }
+
+
+    @media screen and (max-width: 600px) {
+      .topnav a { width:100%; text-align: center; font-size: 35px ;}
+    }
+
   a {color:grey; text-decoration: none;}
   .topbuttons {color:grey; margin-left: 15px; font-size: 45px; text-decoration: none;}
    a:hover {color:black;}
-  li {display:inline; text-decoration: none; background-color: white; float:right; margin-top: 20px; margin-right: 8px;}
   
-  li a {text-align: center; padding: 14px 16px; font-size: 25px; }
-  li a:hover {color:black;}
   img.two {width:25px; height:auto; margin-left:20px;}
 
   p {text-align: center; margin-left: 30px; font-size:  18px; color: grey; }
@@ -64,15 +77,19 @@ div.desc {
 </style>
 </head>
 <body>
+  <div class="banner">
   <a class="topbuttons" href="https://www.instagram.com/olivepetportraits/" target="_blank">
   <img class="two" src="IG_logo.png">
 </a>
   <a class="topbuttons" href="index.html">Imogene Olive</a>
+</div>
 
+<div class="topnav">
   <li><a href="ImogeneContact.html"> Contact</a></li>
   <li><a href="ImogeneAbout.html"> About</a></li>
   <li><a href="ImogeneForSale.html"> For Sale</a></li>
   <li><a href="ImogeneCommissions.html"> Commissions</a></li>
+</div>
   
 
   <br><br><br>
