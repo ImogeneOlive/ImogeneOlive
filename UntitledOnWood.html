@@ -13,6 +13,18 @@ img.two {height:  18px; width:  auto; margin-top: 30px; margin-left: 30px;}
  a:hover {color: black}
 
 
+@media screen and (max-width: 550px) {
+      .topnav a { width:100%; text-align: center; font-size: 35px ;}
+   .gallery-outer {width: 100%}
+    div.gallery {margin: auto; }
+ }
+
+  @media screen and (min-width: 551px) {
+    div.gallery {float: left; margin-left: 60px;}
+  }
+
+
+
 .gallery-outer {                /*Div for grid box*/
   width: 100%;
   height: auto;
@@ -21,9 +33,9 @@ img.two {height:  18px; width:  auto; margin-top: 30px; margin-left: 30px;}
 
 div.gallery {               /*Div for grid elements*/
   margin-top:15px;               /*Adds a space around the div element*/
-  margin-left: 60px;
+ 
   /border: 1px solid black;   /*Uncomment to visualize border*/
-  float: left;                /*Keeps element on left of screen*/
+                 /*Keeps element on left of screen*/
   width: 300px;               /*Defines size of div, such that contents cannot change it.*/
   height: 450px;
   padding-left: 15px;          /*Adds an internal cushion, where no content can be.*/
@@ -69,7 +81,7 @@ div.desc {
 	<br>
 	<p> Please click an image for a more detailed view. To inquire about this painting please email <a class="two" href="mailto:imogeneolive@hotmail.co.uk">imogeneolive@hotmail.co.uk</a>  <br><br>
 
-	<i>Untitled</i> is an oil painting on wood sized ? x ? cms (? x ?") priced at £40 <br>
+	<i>Untitled</i> is an oil painting on wood sized 15.5 x 15.7 x 1.2 cm (6.1 x 6.2 x 0.5") priced at £40 <br>
 	This piece was made as a study, as such the wood is not 100% straight on a few sides, off by a few mms. However, I do not think this takes away from it as a piece of work, and it will look good in a simple frame or even sat on a shelf.<br>
 	All paintings are signed, dated, and provided with material and dimension information on the back. <br>
 	The painting will be shipped in a thick bubble lined envelope, 1st Class Signed for locations in the UK, Tracked International for locations outside of the UK. <br><br>
@@ -80,7 +92,7 @@ div.desc {
 <div class="gallery">
   <a target="_blank" href="UntitledOnWood.JPG">
     <div class="imgbox">
-      <img class="galleryimg" src="UntitledOnWood.jpg">
+      <img class="galleryimg" src="UntitledOnWood.JPG">
     </div>
   </a>
   <div class="desc"></div>
@@ -90,7 +102,7 @@ div.desc {
 <div class="gallery">
   <a target="_blank" href="HorseOnWood2.JPG">
     <div class="imgbox">
-      <img class="galleryimg" src="HorseOnWood2.jpg">
+      <img class="galleryimg" src="HorseOnWood2.JPG">
     </div>
   </a>
   <div class="desc"></div>
@@ -100,7 +112,7 @@ div.desc {
 <div class="gallery">
   <a target="_blank" href="HorseOnWood3.JPG">
     <div class="imgbox">
-      <img class="galleryimg" src="HorseOnWood3.jpg">
+      <img class="galleryimg" src="HorseOnWood3.JPG">
     </div>
   </a>
   <div class="desc"></div>
