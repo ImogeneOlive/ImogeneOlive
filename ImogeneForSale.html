@@ -23,11 +23,15 @@ div.banner {float: left;
   a.two {font-size: 18px; text-decoration: underline;}
   a.sale {color: red; font-size: 18px;}
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 550px) {
       .topnav a { width:100%; text-align: center; font-size: 35px ;}
     
       .gallery-outer {width: 100%;}
       div.gallery {margin:auto; margin-left: 0px;}
+    }
+
+    @media screen and (min-width: 551px){
+      div.gallery {float: left;}
     }
 
 	
@@ -41,7 +45,6 @@ div.gallery {               /*Div for grid elements*/
   margin-top:15px;               /*Adds a space around the div element*/
   display: block;
   margin-left: 60px;
-  
   /border: 1px solid black;   /*Uncomment to visualize border*/
   float: left;                /*Keeps element on left of screen*/
   width: 300px;               /*Defines size of div, such that contents cannot change it.*/
