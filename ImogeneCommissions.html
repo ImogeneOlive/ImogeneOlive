@@ -25,7 +25,7 @@
   @media screen and (max-width: 600px) {
       .topnav a { width:100%; text-align: center; font-size: 35px ;}
    .gallery-outer {width: 100%}
-   div.gallery {margin: auto}
+   div.gallery {margin: auto; float: none}
  }
 
 
@@ -37,10 +37,11 @@
 
 div.gallery {               /*Div for grid elements*/
   margin-top:15px;               /*Adds a space around the div element*/
-  
+  margin-left: 60px;
   /border: 1px solid black;   /*Uncomment to visualize border*/
-                /*Keeps element on left of screen*/
-  
+  float: left;                /*Keeps element on left of screen*/
+  width: 300px;               /*Defines size of div, such that contents cannot change it.*/
+  height: 450px;
   padding-left: 15px;          /*Adds an internal cushion, where no content can be.*/
   padding-right: 15px;
   padding-top: 0px;
@@ -91,7 +92,7 @@ div.desc {
 
   <br><br><br><br>
 
-  <p>View previously painted commissions here. All are oil paint on canvas board <br> 
+  <p>Test View previously painted commissions here. All are oil paint on canvas board <br> 
    
   To order a commission of your own pet or animal, or even just to ask some questions, please email <a class="two" href="mailto:imogeneolive@hotmail.co.uk">imogeneolive@hotmail.co.uk</a> <br> Thank you!</p>
 
